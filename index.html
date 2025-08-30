@@ -7,28 +7,60 @@
     <title>
         Best Data Science, Big Data Courses in Kochi | Calicut | Trivandrum
     </title>
+
+    <link rel="stylesheet" href="./style.css" />
+
     <link rel="shortcut icon" href="https://d3eqn3hw2x95rk.cloudfront.net/logo/favicon_ClqK3ND.png"
         type="image/x-icon" />
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
 
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FONT AWESOME PRO -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v7.0.0/css/all.css" />
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-    <section class="p-5 container">
+
+    <section class="p-4 container">
         <div class="row p-3">
-            <div class="col-sm-12 col-md-6 col-xl-4 p-3">
-                <div class="border p-3 rounded-3" style="height: 100%">
-                    <img src="./assets/Python Data Science.png" alt="" class="img-fluid mb-4 rounded-3"
-                        style="width: 100%" />
+            <div class="col-sm-12 col-xl-4 p-3 animate__animated animate__fadeIn">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                </form>
+            </div>
+
+            <div class="col-sm-0 col-xl-4"></div>
+
+            <div class="col-sm-12 col-xl-4 p-3 animate__animated animate__fadeIn">
+                <div class="d-flex">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>All Courses</option>
+                        <option value="1">New One</option>
+                        <option value="2">Recommended</option>
+                        <option value="3">Most Placed</option>
+                    </select>
+
+                    <div class="p-2 mx-2 rounded-3" id="bg-purple">
+                        <i class="fa-regular fa-grid-2 fs-4 text-light rounded-3"></i>
+                    </div>
+
+                    <div class="p-2 mx-1 rounded-3 border">
+                        <i class="fa-regular fa-list-ul fs-4 rounded-3" id="txt-purple"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards -->
+            <div class="col-sm-12 col-md-6 col-xl-4 p-3 animate__animated animate__zoomIn">
+                <div class="border p-3 rounded-3 h-100 d-flex flex-column" id="card_hover">
+                    <img src="./assets/Python Data Science.png" alt="" class="img-fluid mb-4 rounded-3 w-100" />
                     <h6>
                         <a href="https://www.luminartechnolab.com/course-detail/machine-learning-training-kochi"
-                            class="fs-5">PYTHON DATA SCIENCE - ML - AI - & Power BI</a>
+                            class="fs-5" id="link">PYTHON DATA SCIENCE - ML - AI - & Power BI</a>
                     </h6>
 
                     <div class="d-flex justify-content-between mt-3 p-2">
@@ -54,19 +86,19 @@
                     </p>
                     <p class="mt-3 text-secondary">🏆 100% Placement assistance 🏆</p>
 
-                    <p class="text-secondary fw-bold mt-4 text-center">
-                        <a href="https://www.luminartechnolab.com/course-detail/machine-learning-training-kochi">See
-                            more...</a>
+                    <p class="text-secondary fw-bold mt-auto text-center">
+                        <a href="https://www.luminartechnolab.com/course-detail/machine-learning-training-kochi"
+                            id="link">See more...</a>
                     </p>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-xl-4 p-3">
-                <div class="border p-3 rounded-3" style="height: 100%">
-                    <img src="./assets/Python Django.png" alt="" class="img-fluid mb-4 rounded-3" style="width: 100%" />
+            <div class="col-sm-12 col-md-6 col-xl-4 p-3 animate__animated animate__zoomIn">
+                <div class="border p-3 rounded-3 h-100 d-flex flex-column" id="card_hover">
+                    <img src="./assets/Python Django.png" alt="" class="img-fluid mb-4 rounded-3 w-100" />
                     <h6>
-                        <a href="https://www.luminartechnolab.com/course-detail/python-training-kochi"
-                            class="fs-5">Python Django - React - Full Stack Web Development Expert</a>
+                        <a href="https://www.luminartechnolab.com/course-detail/python-training-kochi" class="fs-5"
+                            id="link">Python Django - React - Full Stack Web Development Expert</a>
                     </h6>
 
                     <div class="d-flex justify-content-between mt-3 p-2">
@@ -93,19 +125,19 @@
                     </p>
                     <p class="mt-3 text-secondary">🏆 100% Placement assistance 🏆</p>
 
-                    <p class="text-secondary fw-bold mt-4 text-center">
-                        <a href="https://www.luminartechnolab.com/course-detail/python-training-kochi">See more...</a>
+                    <p class="text-secondary fw-bold mt-auto text-center">
+                        <a href="https://www.luminartechnolab.com/course-detail/python-training-kochi" id="link">See
+                            more...</a>
                     </p>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-xl-4 p-3">
-                <div class="border p-3 rounded-3" style="height: 100%">
-                    <img src="./assets/Python Data Analytics.png" alt="" class="img-fluid mb-4 rounded-3"
-                        style="width: 100%" />
+            <div class="col-sm-12 col-md-6 col-xl-4 p-3 animate__animated animate__zoomIn">
+                <div class="border p-3 rounded-3 h-100 d-flex flex-column" id="card_hover">
+                    <img src="./assets/Python Data Analytics.png" alt="" class="img-fluid mb-4 rounded-3 w-100" />
                     <h6>
                         <a href="https://www.luminartechnolab.com/course-detail/python-data-analytics-with-power-bI"
-                            class="fs-5">Python Data Analytics with Power BI</a>
+                            class="fs-5" id="link">Python Data Analytics with Power BI</a>
                     </h6>
 
                     <div class="d-flex justify-content-between mt-3 p-2">
@@ -130,19 +162,19 @@
                     </p>
                     <p class="mt-3 text-secondary">🏆 100% Placement assistance 🏆</p>
 
-                    <p class="text-secondary fw-bold mt-4 text-center">
-                        <a href="https://www.luminartechnolab.com/course-detail/python-data-analytics-with-power-bI">See
-                            more...</a>
+                    <p class="text-secondary fw-bold mt-auto text-center">
+                        <a href="https://www.luminartechnolab.com/course-detail/python-data-analytics-with-power-bI"
+                            id="link">See more...</a>
                     </p>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-xl-4 p-3">
-                <div class="border p-3 rounded-3" style="height: 100%">
-                    <img src="./assets/MEA(R)N.png" alt="" class="img-fluid mb-4 rounded-3" style="width: 100%" />
+            <div class="col-sm-12 col-md-6 col-xl-4 p-3 animate__animated animate__zoomIn">
+                <div class="border p-3 rounded-3 h-100 d-flex flex-column" id="card_hover">
+                    <img src="./assets/MEA(R)N.png" alt="" class="img-fluid mb-4 rounded-3 w-100" />
                     <h6>
-                        <a href="https://www.luminartechnolab.com/course-detail/mean-stack-training-kochi"
-                            class="fs-5">MEA(R)N Stack Web Development Expert</a>
+                        <a href="https://www.luminartechnolab.com/course-detail/mean-stack-training-kochi" class="fs-5"
+                            id="link">MEA(R)N Stack Web Development Expert</a>
                     </h6>
 
                     <div class="d-flex justify-content-between mt-3 p-2">
@@ -168,19 +200,19 @@
                     </p>
                     <p class="mt-3 text-secondary">🏆 100% Placement assistance 🏆</p>
 
-                    <p class="text-secondary fw-bold mt-4 text-center">
-                        <a href="https://www.luminartechnolab.com/course-detail/mean-stack-training-kochi">See
+                    <p class="text-secondary fw-bold mt-auto text-center">
+                        <a href="https://www.luminartechnolab.com/course-detail/mean-stack-training-kochi" id="link">See
                             more...</a>
                     </p>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-xl-4 p-3">
-                <div class="border p-3 rounded-3" style="height: 100%">
-                    <img src="./assets/ASP.png" alt="" class="img-fluid mb-4 rounded-3" style="width: 100%" />
+            <div class="col-sm-12 col-md-6 col-xl-4 p-3 animate__animated animate__zoomIn">
+                <div class="border p-3 rounded-3 h-100 d-flex flex-column" id="card_hover">
+                    <img src="./assets/ASP.png" alt="" class="img-fluid mb-4 rounded-3 w-100" />
                     <h6>
-                        <a href="https://www.luminartechnolab.com/course-detail/asp.net-training-kochi"
-                            class="fs-5">Asp.net MVC with Angular - Full Stack</a>
+                        <a href="https://www.luminartechnolab.com/course-detail/asp.net-training-kochi" class="fs-5"
+                            id="link">Asp.net MVC with Angular - Full Stack</a>
                     </h6>
 
                     <div class="d-flex justify-content-between mt-3 p-2">
@@ -206,18 +238,19 @@
                     </p>
                     <p class="mt-3 text-secondary">🏆 100% Placement assistance 🏆</p>
 
-                    <p class="text-secondary fw-bold mt-4 text-center">
-                        <a href="https://www.luminartechnolab.com/course-detail/asp.net-training-kochi">See more...</a>
+                    <p class="text-secondary fw-bold mt-auto text-center">
+                        <a href="https://www.luminartechnolab.com/course-detail/asp.net-training-kochi" id="link">See
+                            more...</a>
                     </p>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-xl-4 p-3">
-                <div class="border p-3 rounded-3" style="height: 100%">
-                    <img src="./assets/Flutter.png" alt="" class="img-fluid mb-4 rounded-3" style="width: 100%" />
+            <div class="col-sm-12 col-md-6 col-xl-4 p-3 animate__animated animate__zoomIn">
+                <div class="border p-3 rounded-3 h-100 d-flex flex-column" id="card_hover">
+                    <img src="./assets/Flutter.png" alt="" class="img-fluid mb-4 rounded-3 w-100" />
                     <h6>
-                        <a href="https://www.luminartechnolab.com/course-detail/android-training-kochi"
-                            class="fs-5">Best Flutter Training In Kochi (Cochin) & Calicut
+                        <a href="https://www.luminartechnolab.com/course-detail/android-training-kochi" class="fs-5"
+                            id="link">Best Flutter Training In Kochi (Cochin) & Calicut
                             (Kozhikode)</a>
                     </h6>
 
@@ -247,19 +280,19 @@
                         🏆 Placement Opportunities Guaranteed 🏆
                     </p>
 
-                    <p class="text-secondary fw-bold mt-4 text-center">
-                        <a href="https://www.luminartechnolab.com/course-detail/android-training-kochi">See more...</a>
+                    <p class="text-secondary fw-bold mt-auto text-center">
+                        <a href="https://www.luminartechnolab.com/course-detail/android-training-kochi" id="link">See
+                            more...</a>
                     </p>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-xl-4 p-3">
-                <div class="border p-3 rounded-3" style="height: 100%">
-                    <img src="./assets/Software Testing.png" alt="" class="img-fluid mb-4 rounded-3"
-                        style="width: 100%" />
+            <div class="col-sm-12 col-md-6 col-xl-4 p-3 animate__animated animate__zoomIn">
+                <div class="border p-3 rounded-3 h-100 d-flex flex-column" id="card_hover">
+                    <img src="./assets/Software Testing.png" alt="" class="img-fluid mb-4 rounded-3 w-100" />
                     <h6>
                         <a href="https://www.luminartechnolab.com/course-detail/software-testing-training-in-kochi"
-                            class="fs-5">Software Testing Training (AI Powered) - Manual & Automation</a>
+                            class="fs-5" id="link">Software Testing Training (AI Powered) - Manual & Automation</a>
                     </h6>
 
                     <div class="d-flex justify-content-between mt-3 p-2">
@@ -286,19 +319,19 @@
                     </p>
                     <p class="mt-3 text-secondary">🏆 100% Placement assistance 🏆</p>
 
-                    <p class="text-secondary fw-bold mt-4 text-center">
-                        <a href="https://www.luminartechnolab.com/course-detail/software-testing-training-in-kochi">See
-                            more...</a>
+                    <p class="text-secondary fw-bold mt-auto text-center">
+                        <a href="https://www.luminartechnolab.com/course-detail/software-testing-training-in-kochi"
+                            id="link">See more...</a>
                     </p>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-xl-4 p-3">
-                <div class="border p-3 rounded-3" style="height: 100%">
-                    <img src="./assets/Java Spring.png" alt="" class="img-fluid mb-4 rounded-3" style="width: 100%" />
+            <div class="col-sm-12 col-md-6 col-xl-4 p-3 animate__animated animate__zoomIn">
+                <div class="border p-3 rounded-3 h-100 d-flex flex-column" id="card_hover">
+                    <img src="./assets/Java Spring.png" alt="" class="img-fluid mb-4 rounded-3 w-100" />
                     <h6>
-                        <a href="https://www.luminartechnolab.com/course-detail/Java-spring-training-kochi"
-                            class="fs-5">Java Spring Full Stack Development</a>
+                        <a href="https://www.luminartechnolab.com/course-detail/Java-spring-training-kochi" class="fs-5"
+                            id="link">Java Spring Full Stack Development</a>
                     </h6>
 
                     <div class="d-flex justify-content-between mt-3 p-2">
@@ -324,19 +357,19 @@
                     </p>
                     <p class="mt-3 text-secondary">🏆 100% Placement assistance 🏆</p>
 
-                    <p class="text-secondary fw-bold mt-4 text-center">
-                        <a href="https://www.luminartechnolab.com/course-detail/Java-spring-training-kochi">See
-                            more...</a>
+                    <p class="text-secondary fw-bold mt-auto text-center">
+                        <a href="https://www.luminartechnolab.com/course-detail/Java-spring-training-kochi"
+                            id="link">See more...</a>
                     </p>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-xl-4 p-3">
-                <div class="border p-3 rounded-3" style="height: 100%">
-                    <img src="./assets/Robotics.png" alt="" class="img-fluid mb-4 rounded-3" style="width: 100%" />
+            <div class="col-sm-12 col-md-6 col-xl-4 p-3 animate__animated animate__zoomIn">
+                <div class="border p-3 rounded-3 h-100 d-flex flex-column" id="card_hover">
+                    <img src="./assets/Robotics.png" alt="" class="img-fluid mb-4 rounded-3 w-100" />
                     <h6>
-                        <a href="https://www.luminartechnolab.com/course-detail/Robotics-AI-training-Kochi"
-                            class="fs-5">Robotics with AI & IoT Training</a>
+                        <a href="https://www.luminartechnolab.com/course-detail/Robotics-AI-training-Kochi" class="fs-5"
+                            id="link">Robotics with AI & IoT Training</a>
                     </h6>
 
                     <div class="d-flex justify-content-between mt-3 p-2">
@@ -362,9 +395,9 @@
                     </p>
                     <p class="mt-3 text-secondary">🏆 100% Placement assistance 🏆</p>
 
-                    <p class="text-secondary fw-bold mt-4 text-center">
-                        <a href="https://www.luminartechnolab.com/course-detail/Robotics-AI-training-Kochi">See
-                            more...</a>
+                    <p class="text-secondary fw-bold mt-auto text-center">
+                        <a href="https://www.luminartechnolab.com/course-detail/Robotics-AI-training-Kochi"
+                            id="link">See more...</a>
                     </p>
                 </div>
             </div>

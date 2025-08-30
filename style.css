@@ -1,0 +1,21 @@
+#card_hover:hover {
+    transition: 0.3s ease-in;
+    box-shadow: 0px 0px 8px gray;
+}
+
+#link {
+    text-decoration: none;
+    color: #082a5e;
+}
+
+#link:hover {
+    text-decoration: underline;
+}
+
+#bg-purple{
+    background-color: #9116A1;
+}
+
+#txt-purple{
+    color: #9116A1;
+}
